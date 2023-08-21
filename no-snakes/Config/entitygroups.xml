@@ -1,0 +1,7 @@
+<configs>
+	<csv xpath="//entitygroup[@name='EnemyAnimalsDesert']/text()" delim="\n" op="remove">animalSnake, 10</csv>
+	<remove xpath="//entitygroup[contains(@name, 'Snake')]"/>
+	<csv xpath="//entitygroup[contains(@name, 'EnemyAnimals')]/text()" delim="\n" op="remove">animalSnake, 20</csv>
+</configs>
+
+
